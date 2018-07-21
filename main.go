@@ -20,7 +20,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	if err := light.Off(); err != nil {
+	if err := light.Toggle(); err != nil {
 		log.Fatal(err)
 	}
 }
